@@ -32,9 +32,7 @@ AI-Job-Postings-Dashboard/
 │ │ └── skill_trends.csv # Aggregated skill counts
 │ └── naukri_debug.html # Debug file with raw page HTML
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -47,15 +45,11 @@ pip install -r requirements.txt
 Make sure you have Chrome installed and chrome.exe path set correctly for Selenium.
 
 2. 🧪 Run the scraper (optional)
-bash
-Copy
-Edit
+
 python scraper/indeed_scraper.py
 python scraper/extract_skills.py
 This will save the cleaned data into scraper/data/.
 
 3. 📊 Launch the dashboard
-bash
-Copy
-Edit
+
 streamlit run scraper/dashboard.py
